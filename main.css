@@ -1,10 +1,14 @@
+nav {
+  text-align: center;
+}
 .jumboTron {
   text-align: center;
 }
-
-
-jumboTron h1 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
+body {
+  margin: 0;
+}
+.mainBody {
+  background-color: #999999;
+  margin-left: 0px;
+  margin-right: 0px;
 }
