@@ -1,0 +1,10 @@
+.jumboTron {
+  text-align: center;
+}
+
+
+jumboTron h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
