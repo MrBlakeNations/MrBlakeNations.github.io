@@ -9,6 +9,29 @@ body {
 }
 .mainBody {
   background-color: #999999;
-  margin-left: 0px;
-  margin-right: 0px;
 }
+.column{
+width: 23.5%;
+float: left;
+background-color: #999999;
+}
+.footer {
+  clear: both;
+}
+.one{
+  padding-left: 1.5%;
+  padding-right: .5%
+}
+.two{
+  padding-left: .5%;
+  padding-right: .5%;
+}
+.three{
+  padding-left: .5%;
+  padding-right: .5%;
+}
+.four{
+  padding-left: .5%;
+  padding-right: 1.5%;
+}
+,
