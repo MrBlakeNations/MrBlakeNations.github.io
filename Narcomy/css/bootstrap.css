@@ -1077,14 +1077,10 @@ th {
           box-sizing: border-box;
 }
 html {
-  font-size: 10px;
-
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
   color: #333;
   background-color: #ffffcc;
 }
@@ -4216,6 +4212,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+  font-size: 14px;
+  line-height: 1.42857143;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -5008,7 +5006,6 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {

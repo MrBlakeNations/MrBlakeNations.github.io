@@ -4,3 +4,10 @@
 body {
 	background-color: #ffffcc;
 }
+.jumbotron {
+	background-color: #eeeebe;
+}
+.mainBody p {
+	font-size: 18px;
+	line-height: 1.42857143;
+}
