@@ -6,32 +6,14 @@ nav {
 }
 body {
   margin: 0;
+  background-image: url(background.jpg);
 }
-.mainBody {
-  background-color: #999999;
-}
-.column{
-width: 23.5%;
-float: left;
-background-color: #999999;
+body a {
+  
 }
 .footer {
   clear: both;
 }
-.one{
-  padding-left: 1.5%;
-  padding-right: .5%
+.inlineElement{
+  display: inline-block;
 }
-.two{
-  padding-left: .5%;
-  padding-right: .5%;
-}
-.three{
-  padding-left: .5%;
-  padding-right: .5%;
-}
-.four{
-  padding-left: .5%;
-  padding-right: 1.5%;
-}
-,

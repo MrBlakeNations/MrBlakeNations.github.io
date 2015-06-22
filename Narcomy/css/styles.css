@@ -2,6 +2,7 @@
 	width: 75%;
 }
 body {
+	background: url("background.jpg");
 	background-color: #ffffcc;
 }
 .jumbotron {
@@ -15,4 +16,14 @@ img {
     display: inline-block;
     height: auto;
     width: 75%;
+}
+#navBarLogo{
+	display: inline-block;
+	width: 7%
+}
+
+#footer p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: black;
 }
