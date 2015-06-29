@@ -1,3 +1,34 @@
+<?php
+$to = 'theunifiedhalo@gmail.com';
+$subject = 'Lawn care request';
+
+$name = $_POST['name']
+$email = $_POST['email']
+$message = $_POST['message']
+
+$body = <<<EMAIL
+
+Hi my name is  $name
+
+$message
+
+From $name
+$phone
+$email
+
+EMAIL;
+
+$header = '$email';
+
+if($_POST){
+  if($name == '' || $email == '' || $message == ''){
+    $feedback = 'Fill out all the fields.'
+  }else{
+    main($to, $subject, $body, $header)
+    $feedback = 'Thanks for the message!';
+  }}
+?>
+
 <html>
 <head>
   <meta charset="utf-8">
@@ -31,12 +62,32 @@
     </div>
   </nav>
 
-  <div class="container">
-    <iframe src="https://docs.google.com/forms/d/1QnoAuwc1aYEIEBe1tCxpslf9Y4Ua0-fWGdhWj5OnOaw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  <form action="?" method="POST" class="form">
+    <ul>
+      <li>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" />
+      </li>
+      <li>
+        <label for="name">Email:</label>
+        <input type="text" name="email" id="email" />
+      </li>
+      <li>
+        <label for="Message">Message:</label>
+        <textarea id="message" name="message" cols="42" rows="9"></textarea>
+      </li>
+      <li>
+        <input type="submit" value="Submit">
+      </li>
+    </ul>
+  </form>
+
+  <div class="mainFooter">
+    <div class="container">
+      <p id="copyright">Copyright 2015 Morris Narcomey</p>
+      <p id="blake">Website designed and developed by Blake Nations</p>
+    </div>
   </div>
-
-  <h1 class="mainBody">Isn't working right? <a>Click here to go straight to the form!</a></h1>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
