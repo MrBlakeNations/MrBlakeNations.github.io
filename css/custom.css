@@ -17,7 +17,8 @@ body {background:url("../imgs/background.jpg") no-repeat center center fixed;
   font-family: Geosans Light;
 }
 p {font-size: 20px; color:white;}
-h4 {font-size: 30px; color:white; text-align: center;}
+h4 {font-size: 26px; color:white;}
 .topCopy {margin-bottom:100px;}
 .centered{text-align: center;}
 .name{color:#FFFFFF;}
+label {color: white !important;}
