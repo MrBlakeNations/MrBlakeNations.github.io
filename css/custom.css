@@ -1,17 +1,23 @@
+/*This website was made by MrBlakeNations from mrblakenations.com*/
 @font-face {
-    font-family: 'Geosans Light'; /*a name to be used later*/
-    src: url('../fonts/GeosansLight.ttf'); /*URL to font*/
+    font-family: 'Geosans Light';
+    src: url('../fonts/GeosansLight.ttf');
 }
 .jumboTron {text-align: center;}
 h1 {font-size: 75px; color:#FFFFFF;}
 nav {margin-bottom: 125px;}
 .navBar a{font-size: 25px; color:#FFFFFF;}
-.navBar {text-align: center; padding-top: 20px}
+.navBar {text-align: center; padding-top: 20px;}
 .subTitle {margin-top: 50px; color:#FFFFFF;}
-body {background:url("../imgs/background.jpg") top right no-repeat;
-  background-attachment:fixed;
+body {background:url("../imgs/background.jpg") no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size: cover;
   font-family: Geosans Light;
 }
 p {font-size: 20px; color:white;}
 h4 {font-size: 30px; color:white; text-align: center;}
 .topCopy {margin-bottom:100px;}
+.centered{text-align: center;}
+.name{color:#FFFFFF;}
